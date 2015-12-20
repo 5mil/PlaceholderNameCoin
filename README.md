@@ -8,9 +8,9 @@
 	- 1024 coins per block, and a random super block each hour that has 8X the normal payout (8096 coins)
 	- The payout will be halved each 3 months (129,600 blocks)
 	- To enourage the early adoption, the 1st week after the launch is a bonus week:
-		- First 2 days: 5x
-		- Next 2 days: 3x
-		- Next 3 days: 2x
+		- First 2 days: 50x
+		- Next 2 days: 30x
+		- Next 3 days: 20x
 
 	- The default ports: Connection 11310, and RPC 11311
 
