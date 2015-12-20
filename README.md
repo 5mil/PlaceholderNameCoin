@@ -5,7 +5,7 @@
 	- Total coins will be 320,636,160
 	- 6 confirmations for transaction
 	- 50 confirmations for minted blocks
-	- 1024 coins per block, and a random super block each hour that has 8X the normal payout (8096 coins)
+	- 10420 coins per block, and a random super block each hour that has 8X the normal payout (8096 coins)
 	- The payout will be halved each 3 months (129,600 blocks)
 	- To enourage the early adoption, the 1st week after the launch is a bonus week:
 		- First 2 days: 50x
