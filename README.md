@@ -1,4 +1,4 @@
-{} - a fork of Netcoin that combines the random superblocks. Like Litecoin it uses scrypt as a proof of work scheme.
+{Secret} - a fork of Netcoin that combines the random superblocks. Like Litecoin it uses scrypt as a proof of work scheme.
 
 	- 60 seconds block time
 	- Difficulty retargets every 60 blocks
