@@ -2,7 +2,7 @@
 
 	- 60 seconds block time
 	- Difficulty retargets every 60 blocks
-	- Total coins will be 320,636,160
+	- Total coins will ~ 320,636,160,000+
 	- 6 confirmations for transaction
 	- 50 confirmations for minted blocks
 	- 10420 coins per block, and a random super block each hour that has 8X the normal payout (8096 coins)
