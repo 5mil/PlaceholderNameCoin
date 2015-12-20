@@ -848,7 +848,7 @@ int static generateMTRandom(unsigned int s, int range)
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
 	// normal payout
-    int64 nSubsidy = 1024 * COIN;
+    int64 nSubsidy = 10420 * COIN;
 
 	std::string cseed_str = prevHash.ToString().substr(5,7);
 	const char* cseed = cseed_str.c_str();
@@ -857,21 +857,21 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 
 	if(rand > 2000 && rand < 2101)	
 	{
-		nSubsidy *= 8;
+		nSubsidy *= 80;
 	}
 
 	// 1st week bonus
 	if(nHeight < 2881)		// 1st 2 days
 	{
-		nSubsidy *= 5;
+		nSubsidy *= 50;
 	}
 	else if(nHeight < 5761)	// next 2 days
 	{
-		nSubsidy *= 3;
+		nSubsidy *= 30;
 	}
 	else if(nHeight < 10081)	// next 3 days
 	{
-		nSubsidy *= 2;
+		nSubsidy *= 20;
 	}
 
 	// Subsidy is cut in half every 129,600 blocks, which will occur approximately every 3 months
