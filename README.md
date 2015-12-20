@@ -1,4 +1,4 @@
-NetCoin (NET) - a fork of Litecoin that combines the random superblocks. Like Litecoin it uses scrypt as a proof of work scheme.
+{} - a fork of Netcoin that combines the random superblocks. Like Litecoin it uses scrypt as a proof of work scheme.
 
 	- 60 seconds block time
 	- Difficulty retargets every 60 blocks
