@@ -36,7 +36,7 @@ static const unsigned int MAX_TX_COMMENT_LEN = 140; // Netcoin: 128 bytes + litt
 
 static const int64 MIN_TX_FEE = 1000000;
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64 MAX_MONEY = 325000000 * COIN; // NetCoin: maximum of 325M coins
+static const int64 MAX_MONEY = 420000000000 * COIN; // Netcoin: maximum of 420B coins
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int COINBASE_MATURITY = 30;
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
